@@ -1,13 +1,14 @@
 import React from 'react';
 import "./AppContainer.css";
+import FoodAdder from '../FoodAdder/FoodAdder.js';
 
 function AppContainer() {
   return (
     <div className="container">
       <div className="calories">
-        <h2>Калории:</h2>
+      <h2>Калории:</h2>
       </div>
-      <h2>Добавьте продукты</h2>
+      <FoodAdder alt="123" />
     </div>
   );
 }

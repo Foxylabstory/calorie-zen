@@ -1,5 +1,5 @@
 import React from 'react';
-import headerLogo from '../images/calorieZen.png';
+import headerLogo from '../../images/calorieZen.png';
 import "./Header.css";
 
 function Header() {
